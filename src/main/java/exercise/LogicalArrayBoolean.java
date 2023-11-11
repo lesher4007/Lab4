@@ -47,6 +47,7 @@ public class LogicalArrayBoolean implements LogicalArray{
         StringBuilder result = new StringBuilder("[");
         for (boolean value: array){
             result.append(value ? '1' : '0');
+            result.append(", ");
         }
         result.append("]");
         return result.toString();
