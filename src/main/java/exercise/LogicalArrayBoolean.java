@@ -1,9 +1,9 @@
 package exercise;
 
-public class LogicalArrayImpl implements LogicalArray{
-    private boolean[] array;
+public class LogicalArrayBoolean implements LogicalArray{
+    private final boolean[] array;
 
-    public LogicalArrayImpl() {
+    public LogicalArrayBoolean() {
         array = new boolean[size];
     }
 
